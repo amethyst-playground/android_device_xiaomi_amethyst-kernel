@@ -1,6 +1,5 @@
 msm_sysstats.ko
 lb.ko
-dynamic_readahead.ko
 crc-itu-t.ko
 msm_show_resume_irq.ko
 mhi.ko
@@ -74,6 +73,7 @@ qcom_pm8008-regulator.ko
 qpnp-lcdb-regulator.ko
 qpnp-amoled-regulator.ko
 wl2866d.ko
+wl28661d.ko
 qti-ocp-notifier.ko
 hvc_gunyah.ko
 msm_geni_serial.ko
@@ -140,7 +140,6 @@ leds-qti-tri-led.ko
 mi_mempool.ko
 proc_exit.ko
 binder_prio.ko
-mi_mem_engine.ko
 qcom_pil_info.ko
 rproc_qcom_common.ko
 qcom_q6v5.ko
@@ -211,7 +210,6 @@ qrtr-smd.ko
 qrtr-mhi.ko
 sla.ko
 miwill.ko
-miwill_mode_redudancy.ko
 minet.ko
 miicmpfilter.ko
 qca_cld3_qca6750.ko
@@ -235,6 +233,7 @@ swr_ctrl_dlkm.ko
 snd_event_dlkm.ko
 wcd_core_dlkm.ko
 mbhc_dlkm.ko
+typec_analog_acc_dlkm.ko
 wcd9xxx_dlkm.ko
 stub_dlkm.ko
 cs35l41_dlkm.ko
@@ -245,6 +244,7 @@ fs19xx_dlkm.ko
 tef668x_dlkm.ko
 sia91xx_dlkm.ko
 sia91xx_tuning_dlkm.ko
+tfa986x_dlkm.ko
 machine_dlkm.ko
 swr_haptics_dlkm.ko
 hdmi_dlkm.ko
@@ -295,6 +295,7 @@ swr_ctrl_dlkm.ko
 snd_event_dlkm.ko
 wcd_core_dlkm.ko
 mbhc_dlkm.ko
+typec_analog_acc_dlkm.ko
 wcd9xxx_dlkm.ko
 stub_dlkm.ko
 cs35l41_dlkm.ko
@@ -305,6 +306,7 @@ fs19xx_dlkm.ko
 tef668x_dlkm.ko
 sia91xx_dlkm.ko
 sia91xx_tuning_dlkm.ko
+tfa986x_dlkm.ko
 machine_dlkm.ko
 swr_haptics_dlkm.ko
 hdmi_dlkm.ko

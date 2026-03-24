@@ -90,7 +90,6 @@ ufs_qcom.ko
 ufshcd-crypto-qti.ko
 qcom_scmi_vendor.ko
 qcom-scm.ko
-mi_tag.ko
 miev.ko
 mi_rmap_efficiency.ko
 mi_async_reclaim.ko
@@ -116,6 +115,7 @@ icc-test.ko
 mi_memory.ko
 ufs_ffu.ko
 dump_display.ko
+io_monitor.ko
 mi_schedule.ko
 metis.ko
 mist.ko
@@ -123,7 +123,6 @@ qrtr.ko
 qrtr-gunyah.ko
 msm_sysstats.ko
 lb.ko
-dynamic_readahead.ko
 crc-itu-t.ko
 msm_show_resume_irq.ko
 mhi.ko
@@ -197,6 +196,7 @@ qcom_pm8008-regulator.ko
 qpnp-lcdb-regulator.ko
 qpnp-amoled-regulator.ko
 wl2866d.ko
+wl28661d.ko
 qti-ocp-notifier.ko
 hvc_gunyah.ko
 msm_geni_serial.ko
@@ -263,7 +263,6 @@ leds-qti-tri-led.ko
 mi_mempool.ko
 proc_exit.ko
 binder_prio.ko
-mi_mem_engine.ko
 qcom_pil_info.ko
 rproc_qcom_common.ko
 qcom_q6v5.ko
